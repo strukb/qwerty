@@ -39,3 +39,26 @@
 	font-size: 1.8em;
 	font-family: 'Source Code Pro', monospace;
 }
+body {
+  background-color: #ededed;  
+}
+.company-logos {
+  display: table;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.company-logo {
+  float: left;
+  width: 25%;
+  height: 100px;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.company-logo > img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
