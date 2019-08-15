@@ -100,3 +100,11 @@ body {
 	color: #006999 !important;
 	font-weight: bold;
 }
+.services {
+	background-color: #fafafa;
+}
+.services-title {
+	font-size: 1.8em;
+	text-align:center;
+	margin:0 auto;
+}
