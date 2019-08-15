@@ -1,3 +1,10 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ main{
+ 	background-color: white;
+ }
  #headerwrap{
  	background: url(https://apkua.net/photos/board/2018/02/3052.jpg) no-repeat center top;
  	margin-top: -20px;
@@ -14,8 +21,6 @@
  	-moz-backgroud-size: cover;
  	-o-backgroud-size: cover;
  	backgroud-size: cover;
-
-
 
  }
  #headerwrap h1{
