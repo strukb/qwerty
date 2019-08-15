@@ -71,3 +71,8 @@ body {
   width: 100px;
 
 }
+.col-style {
+	background-color: #fafafa;
+	border: 1px solid silver;
+	border-radius: 3%;
+}
