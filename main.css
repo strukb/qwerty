@@ -90,3 +90,6 @@ body {
 	border-radius: 25px;
 	padding:1px 10px;
 }
+.nav-link:hover {
+	color: green !important;
+}
