@@ -1,7 +1,7 @@
  #headerwrap{
- 	background: url(https://energo-audit.com/wp-content/uploads/2016/03/energoaudit-predpriyatiya.jpg) no-repeat center top;
- 	margin-top: -10px;
- 	padding-top: 20px;
+ 	background: url(https://apkua.net/photos/board/2018/02/3052.jpg) no-repeat center top;
+ 	margin-top: -20px;
+ 	padding-top: 25px;
  	text-align: center;
  	background-attachment: relative;
  	min-height: 500px;
@@ -58,7 +58,11 @@ body {
 }
 
 .company-logo > img {
-  width: 100%;
-  height: auto;
+  width: auto;
   position: absolute;
+}
+.ii {
+  height: 150px;
+  width: 100px;
+
 }
