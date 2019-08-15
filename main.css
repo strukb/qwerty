@@ -91,5 +91,12 @@ body {
 	padding:1px 10px;
 }
 .nav-link:hover {
-	color: green !important;
+	color: #006999 !important;
+}
+.title-center {
+	text-align:center;
+}
+.navbar-light .navbar-brand{
+	color: #006999 !important;
+	font-weight: bold;
 }
