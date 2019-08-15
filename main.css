@@ -108,3 +108,11 @@ body {
 	text-align:center;
 	margin:0 auto;
 }
+.navbar-light .navbar-brand{
+  color: #006999 !important;
+  font-weight: bold;
+font-family: 'Indie Flower', cursive;
+letter-spacing: 0.4em;
+font-size: 1.6em;
+
+}
