@@ -78,3 +78,15 @@ body {
   padding: 20px 20px;
   margin: 30px 15px;
 }
+.bg-light {
+	background-color: white !important;
+} 
+.header-info {
+	display: flex;
+	justify-content: flex-end;
+}
+.phone-style {
+	background-color: #f0ecde;
+	border-radius: 25px;
+	padding:1px 10px;
+}
