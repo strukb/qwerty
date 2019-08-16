@@ -7,7 +7,7 @@
  	background-color: white;
  }
  #headerwrap{
- 	background: url(https://apkua.net/photos/board/2018/02/3052.jpg) no-repeat center top;
+ 	background: url(https://media-public.canva.com/MAC-y2UNUVc/1/screen_2x.jpg) no-repeat center top;
  	margin-top: -20px;
  	padding-top: 25px;
  	text-align: center;
@@ -116,4 +116,71 @@ font-family: 'Indie Flower', cursive;
 letter-spacing: 0.4em;
 font-size: 1.6em;
 
+}
+.aboutus{
+  background-color: #fafafa;
+}
+.aboutus-title{
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 20px; 
+}
+.hidden {
+  display: none;
+}
+.show {
+  color:#0004fa
+}
+.main-footer {
+ background-color:#2d4751;
+}
+.main-footer * {
+ color:white;
+ border-color: white;
+}
+.where {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction:column;
+}
+.main-footer address{
+line-height: 1.6rem;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height:100%;
+}
+.form-item {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin-right:10px;
+}
+.main-footer .col:nth-child (2){
+ /* flex-grow: 2; */
+}
+.inp_h {
+padding: 5px 15px;
+}
+.btn-send{
+display:block;
+margin-top: 10px;
+margin-bottom: 20px;
+padding: 6px 17px;
+background-color: rgba(232, 99, 78, 1);
+color: white;
+border: none;
+outline: none;
+font-size: 1em;
+}
+
+.copyright {
+    display: block;
+ text-align: center;
 }

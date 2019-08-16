@@ -8,7 +8,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scanel=1.0">
+<script type="text/javascript" src="script.js"></script>
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="icon" href="img/download.png" type="image/x-icon" />
 </head>
@@ -23,12 +25,13 @@
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active phone-style">
                     <a class="nav-link " href="#">Телефон: 0673406983 </a>
+
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#services">Послуги</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="aboutus.html">Про Нас</a>
+                    <a class="nav-link" href="#aboutus">Про Нас</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="objects.html">Об'єкти</a>
@@ -80,6 +83,7 @@
   </div>
 </div>
 <a name="services"></a>
+
   <div class="services">
 <div class="container">
     <div class="d-flex justify-content-center">
@@ -90,23 +94,71 @@
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="img/beton.jpg" alt="Card image cap">
           <div class="card-body">
-            <p class="card-text">Виготовлення бетону (різних марок)</p>
+            <p class="card-text">
+              <b>Виготовлення бетону:</b> 
+              <ul>
+                <li><b>М-100 (класс B 7.5)</b> Один з найнижчих товарних сортів бетону. Як правило, застосовується в різних підготовчих будівельних роботах, часто використовується як бетонна подушка під фундаменти, під монтаж інших виробів (бордюри, блоки, поребрики), як основа для зміцнення грунту, зокрема - в дорожньому будівництві.</li>
+                <li><b>М-150 (БСГ класс B12.5)</b> Бетон даної марки може бути застосований для стяжок, підлог, фундаментів для легких одноповерхових споруд, але в основному для підготовчих робіт перед організацією монолітних фундаментів.</li>
+                <li class="hidden"><b>М-200 (БСГ класс B15)</b>Бетон марки М200, найбільш популярний серед населення, так як має саме оптимальне співвідношення міцності і ціни. Незамінний у виготовленні промислових підлог, заливки бетонних стяжок, при організації фундаментів, вимощення доріжок та ін. Популярною міцності М-200 достатньо для реалізації багатьох завдань у приватному будівництві: всілякі фундаменти, виготовлення майданчиків і сходів. У виробництві ЗБВ на комбінатах бетон марки М200 використовується при виробництві наступних виробів: фундаментних блоків стінових - ФБС, дорожніх плит, перемичок і т.д.</li>
+                <li class="hidden"><b>М-250 (БСГ класс В20)</b>, основна область застосування - монолітні плити перекриття, стрічкові фундаменти, сходи і паркани. Щось середнє між популярним бетоном В15 і вже міцнішим М350. Не найпопулярніша марка, але так само необхідна на сучасному ринку будівництва.</li>
+                <li class="hidden"><b>М-300 (БСГ класс В22.5)</b> Як і М-200, популярна марка бетонної суміші. Застосовується для сходів, відмосток і доріжок, підпірних монолітних стін, стрічкових і плитних фундаментів та ін.</li>
+                <li class="hidden"><b>М-350 (БСГ класс В25)</b> Головне застосування даної бетонної суміші - виготовлення і заливка монолітних фундаментів, для заливки буронабивних паль, панелей перекриття, ригелів, балок, колон, басейнів. З бетону В-25 виробляють спеціальні аеродромні плити, що витримують високі навантаження. З марки М350 найбільш часто виробляють всі відомі ЗБВ і ЗБК. М350 - одна з найбільш популярних БСГ в комерційному будівництві.</li>
+                <li class="hidden"><b>М-400 (БСГ класс В30)</b> Досить рідкісна у використанні марка БСГ. У приватному малоповерховому будівництві високомарочні бетони застосовуються дуже рідко. Даний бетон має властивість швидко схоплюватися, і тому неспішне транспортування і укладання призводять до втрати якостей. Дорожнеча даного бетону пов'язана також із застосуванням тільки гранітного щебеню. Використовується даний бетон при зведенні високотехнологічних споруд зі спеціальними високими вимогами, а також для виробництва спеціальних ЗБ-конструкцій і виробів ЗБВ.</li>
+                <li class="hidden"><b>М-450 (БСГ класс В 35)</b>Сфера застосування бетонів даної марки аналогічна сфері застосування марки М400. З нього зводять колони, дамби і мости, різні балки та інше. У приватному і цивільному будівництві застосовується особливо рідко.</li>
+                <li class="hidden"><b>М-500 (М-550)(БСГ класс В40)</b> у технічних документах і паспортах на продукцію маркується як М-550, загальноприйнята «народна» назва - М500. Як правило, не використовується у приватному будівництві. Область застосування - гідро-технічні споруди: мости і мостові конструкції, метробуд та інші інженерні конструкції з найбільш високими вимогами.</li>
+
+              </ul>
+              <div class="show-more">
+                <a class="show" href="javascript:void(0);">Більше</a>
+              </div>
           </div>
           </div>
     </div>
     <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/beton.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/kon.jpg" alt="Card image cap">
           <div class="card-body">
-            <p class="card-text">Виготовлення бетону (різних марок)</p>
+            <p class="card-text">
+              
+      <ul>
+        <li>Виготовлення та монтаж металоконструкцій будівель споруд</li>
+        <li>Виготовлення і монтаж промислового обладнення (транспортери,бункера,навіси,площадки,силови та інше</li>
+        <li>Монтаж посудин під тиском.</li>
+        <li> Монтаж та ремонт мостових козлових кранів та кран - балок.</li>
+        <li>Виготовленння з/б виробів (фундементальних блоків та інших).</li>
+        <li>Будівниство та загально-будівельні роботи.</li>
+        <li>Плазмова порізка листового металопрокату.</li>
+        <li>Виготовлення та монтаж водонапірних веж з обв'язкою свердловин.</li>
+     <ul>
+              
+           </p>
           </div>
           </div>
     </div>
     <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/beton.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/tehnika.jpg" alt="Card image cap">
           <div class="card-body">
-            <p class="card-text">Виготовлення бетону (різних марок)</p>
+            <p class="card-text">
+             <b>Послуги спецтехніки:</b> 
+          <ul>
+        <li>Автокран.</li>
+        <li>Автовишка.</li>
+        <li>Каток.</li>
+        <li>Ескаватор.</li>
+        <li>Трал.</li>
+        <li>Кран маніпулятор.</li>
+        <li>Тягач.</li>
+        <li>Та інше.</li>
+
+
+
+
+
+
+
+          </ul>
+            
           </div>
           </div>
     </div>
@@ -114,6 +166,13 @@
 </div>
        
     </div>
+
+     <div class="aboutus">
+<div class="container">
+    <div class="d-flex justify-content-center">
+      <span class="aboutus-title">Про Нас</span>
+    </div>
+
         
 <div class="container"><div class="company-logos">
   <div class="company-logo"><img src="img/bnm.png" class="ii"></div>
@@ -122,5 +181,47 @@
   <div class="company-logo"><img src="img/fgh.png"class="ii"></div>
 </div></div>
 </main>
+<footer class="main-footer">
+    <div class="wrapper">
+    <div class="row">
+    <section class="col">
+    <h4 class="col-heading">Виробництво.</h4>
+    <address class="where">
+      Львівська обл,Миколаївський р-н,с.Пісочна,вул.Заболотна 35Б-В.індекс 81640, Україна 
+
+
+    
+ <a href="ppmontazhnyk@ukr.ner">ppmontazhnyk@ukr.ner</a>
+ <a href"tel:tel:="" +38-0324161-248"<="" a="">Tel: +38-0324161-248</a></address><a
+  href"tel:tel:="" +38-0324161-2481"<="" a="">
+    </a></section><a href"tel:tel:="" +38-0324161-248"<="" a="">
+      <section class="col">
+    <h4 class="col-heading">Надішліть мені примітку.</h4>
+ 
+    <form class="contact-form">
+    <div class="form-wrapper">
+    <div class="form-item">
+    <input class="inp_h" type="text" name="text" placeholder="Name">
+    <input class="inp_h" type="email" name="email" placeholder="Email">
+    </div>
+    <textarea name="" cols="24" rows="5" placeholder="Type here something"></textarea>
+  </div>
+    </form>
+    <button class="btn-send">Send</button>
+    </section>
+      </a><section class="col"><a href"tel:tel:="" +38-0324161-2481"<="" a="">
+    <h4 class="col-heading">FOLLOW ME</h4>
+    </a><div class="social"><a href"tel:tel:= "+38-0324161-248"<="" a="">
+    </a><a href="https://www.facebook.com" <i="" class="fa fa-facebook-official" aria-hidden="true"></a>
+   <a href="instagram.com" <i="" class="fa fa-instagram" aria-hidden="true"></a>
+    <a href="twitter.com" <i="" class="fa fa-twitter" aria-hidden="true"></a>
+   <a href"https:="" www.google.com"="" <i="" class="fa fa-google" aria-hidden="true"></a>
+   </div>
+    </section>
+    </div>
+    <small class="copyright">© 2019 by Bohdan Struk.  All Rights Reserved</small>
+    </div>
+    </footer>
+
 </body>
 </html>
