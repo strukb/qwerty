@@ -184,3 +184,24 @@ font-size: 1em;
     display: block;
  text-align: center;
 }
+
+.heading-line{
+    border-bottom: 2px solid lightgray;
+    line-height: 0;
+    text-align: center;
+}
+.row-footer {
+	display: flex;
+    flex-wrap: wrap;
+}
+.wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+.col-heading{
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    margin: 10px 0;
+    padding: 10px;
+    font: lighter 1.2rem 'Josefin Slab', serif;
+}
