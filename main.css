@@ -69,7 +69,6 @@ body {
 }
 .ii {
   height: 150px;
-  width: 100px;
 
 }
 .col-style {
@@ -97,12 +96,16 @@ body {
 .title-center {
 	text-align:center;
 }
+.services-style-text {
+	margin-bottom: 20px;
+}
 .navbar-light .navbar-brand{
 	color: #006999 !important;
 	font-weight: bold;
 }
 .services {
 	background-color: #fafafa;
+	padding: 65px 0;
 }
 .services-title {
 	font-size: 1.8em;
@@ -138,6 +141,18 @@ font-size: 1.6em;
  color:white;
  border-color: white;
 }
+.card{
+	margin: 0 auto;
+	width: 20rem;
+}
+.card-text {
+	font-size: 1.3rem;
+	font-weight: 900;
+	font-family: 'PT Serif', serif;
+}
+.text-with-divider {
+	margin-top: 10px;
+}
 .where {
  display: flex;
  flex-wrap: wrap;
@@ -153,6 +168,7 @@ line-height: 1.6rem;
 }
 .form-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height:100%;
 }
@@ -191,6 +207,7 @@ font-size: 1em;
     text-align: center;
 }
 .row-footer {
+	justify-content: center;
 	display: flex;
     flex-wrap: wrap;
 }
@@ -205,17 +222,37 @@ font-size: 1em;
     padding: 10px;
     font: lighter 1.2rem 'Josefin Slab', serif;
 }
+.show-button {
+	background-color: #006999;
+	color: white;
+	padding: 9px 15px;
+}
+.show-button:hover {
+	background-color: #006999;
+	color: white;
+	padding: 9px 15px;
+}
+
 .aboutus {
+	padding: 65px 0;
 	background-color: white;
+}
+.heading-style {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
 }
 .ab-sec {
 	margin: 20px 0;
 }
 .gallery-block{
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 65px;
 }
-
+.part {
+	margin-top: 20px;
+}
 .gallery-block .heading{
     margin-bottom: 50px;
     text-align: center;
@@ -262,7 +299,9 @@ font-size: 1em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
 }
-
+.card-body{
+	padding: 1.70rem;
+}
 .gallery-block.compact-gallery .item .description .description-heading{
   font-size: 1em;
   font-weight: bold;
@@ -273,7 +312,9 @@ font-size: 1em;
   margin-top: 10px;
   font-weight: 300;
 }
-
+.partners {
+	margin-top: 30px;
+}
 @media (min-width: 576px) {
 
   .gallery-block.compact-gallery .item .description {
@@ -293,5 +334,37 @@ font-size: 1em;
 	background-color: #fafafa;
 }
 .block-title{
-	border-bottom: 2px solid black
+	border-bottom: 2px solid #006999;
+}
+.ii {
+	margin: 10px 20px 10px 30px;
+}
+.company-logos {
+	padding: 0 auto;
+	padding-bottom: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+@media only screen and (max-width: 700px) {
+	#headerwrap {
+		min-height: 300px;
+		margin-top: 0px;
+		background-size: 200%;
+	}
+	#headerwrap h1 {
+		margin-top: 70px;
+		font-size: 2.2rem;
+	}
+	#headerwrap h2 {
+		font-size: 1.8rem;
+	}
+	.card {
+		margin-bottom: 15px;
+	}
+	.inp_h {
+		margin-bottom: 10px;
+	}
+
 }
